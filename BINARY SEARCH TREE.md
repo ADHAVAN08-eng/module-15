@@ -23,6 +23,8 @@ To write a Python program to build a Binary Search Tree (BST) using a built-in f
 ---
 
 ## Program
+
+```
 from binarytree import Node
 def bst(x):
     
@@ -44,7 +46,6 @@ root=bst(sorted(x))
 print("\nBST after insertion:")
 for i in root.values:
     print(i,'-->',end='')
-```
 
 ```
 
